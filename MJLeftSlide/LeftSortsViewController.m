@@ -83,6 +83,7 @@
     [tempAppDelegate.mainNavigationController pushViewController:vc animated:NO];
 }
 
+//整个TableVIew的位置是在原框架中处理的
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
     return 180;
